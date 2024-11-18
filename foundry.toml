@@ -1,8 +1,10 @@
 [profile.default]
-rpc_url = "https://sepolia.base.org"
-chain_id = 84532
+rpc_url = "https://base-mainnet.g.alchemy.com/v2/D5-bd5DExPwrJYG4bHSdmWNmLPGYhpa6"
+chain_id = 8453
 src = "./src"
 out = "./out"
 libs = ["./lib"]
 optimizer = true
 evm_version = "paris"
+optimizer_runs = 200
+solc_version = "0.8.20"
